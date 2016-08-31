@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/testbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="测试"/>
+    <TextView
+        android:id="@+id/textvalues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <AutoCompleteTextView
+        android:completionThreshold="2"
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="请输入你要得关键字"/>
+    <MultiAutoCompleteTextView
+        android:id="@+id/musearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入你要得关键字"/>
+    <ToggleButton
+        android:textOff="关"
+        android:textOn="开"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

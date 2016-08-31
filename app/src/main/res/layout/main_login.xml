@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:id="@+id/etUsername"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:id="@+id/etPassword"/>
+
+    <Button
+        android:background="#00FF00"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/btnLogin"
+        android:text="登录"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:background="#00FF00"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/btnLogin2"
+        android:text="登录"
+        android:textColor="#FFFFFF"/>
+
+    <ViewStub
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/vsProgress"
+        android:layout="@layout/layout_loading"/>
+</LinearLayout>
